@@ -1,0 +1,17 @@
+adt> adta -r 90
+
+adt> adta -r 530
+
+adt> adta -r 540
+
+adt> adtd -a
+
+adt> adta -r 640
+
+adt> adtp 1083
+Error: "1083" is not a legal index!!
+
+adt> adtp 512
+[512] = skbudp   
+
+Segmentation fault (core dumped)

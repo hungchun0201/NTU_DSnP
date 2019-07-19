@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo test mine
+./cirTest -f mydo &> sim13.mine
+echo test ref
+./ref/cirTest-linux16 -f mydo &> sim13.ref
+echo diff
+diff sim13.mine sim13.ref
+echo remove txt
+# rm sim13.mine sim13.ref

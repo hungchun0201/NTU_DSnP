@@ -1,0 +1,7 @@
+echo "=== Running reference program ==="
+./ref/fraig-linux16 -f do.test1 &> result.ref
+echo "=== Running your program ==="
+./fraig -f do.test1 &> result.mine
+echo "=== Checking results ==="
+colordiff result.mine result.ref
+

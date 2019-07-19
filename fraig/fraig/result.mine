@@ -1,0 +1,68 @@
+fraig> cirr strash06.aag -r
+
+fraig> cirstr
+
+fraig> cirp -n
+
+[0] PI  1
+[1] PI  2
+[2] AIG 3 1 2
+[3] PO  11 3
+
+fraig> ciropt
+
+fraig> cirp -n
+
+[0] PI  1
+[1] PI  2
+[2] AIG 3 1 2
+[3] PO  11 3
+
+fraig> cirsw
+Sweeping: AIG(5) removed...
+Sweeping: UNDEF(6) removed...
+Sweeping: AIG(7) removed...
+Sweeping: AIG(8) removed...
+Sweeping: AIG(9) removed...
+Sweeping: AIG(10) removed...
+
+fraig> cirp -n
+
+[0] PI  1
+[1] PI  2
+[2] AIG 3 1 2
+[3] PO  11 3
+
+fraig> cirsim -r
+256 patterns simulated.
+
+fraig> cirfraig
+
+fraig> usage
+Period time used : 0.01 seconds
+Total time used  : 0.01 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirr strash05.aag -r
+Note: original circuit is replaced...
+
+fraig> cirsim -r
+256 patterns simulated.
+
+fraig> cirfraig
+Fraig: 4 merging 5...
+Fraig: 4 merging 7...
+
+fraig> cirp -fec
+
+fraig> cirp -n
+
+[0] PI  1
+[1] AIG 4 1 *8
+[2] PI  2
+[3] AIG 6 4 2
+[4] PO  9 6
+[5] PO  10 4
+
+fraig> q -f
+

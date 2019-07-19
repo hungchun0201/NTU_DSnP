@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo test mine
+./fraig -f mydo_god &> result.mine
+echo test ref
+./ref/fraig-linux16 -f mydo_god &> result.ref
+echo diff
+diff result.mine result.ref
+echo remove txt
+# rm sim13.mine sim13.ref

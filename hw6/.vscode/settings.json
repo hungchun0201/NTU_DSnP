@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "system_error": "cpp",
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "string_view": "cpp",
+        "iomanip": "cpp",
+        "iosfwd": "cpp"
+    }
+}

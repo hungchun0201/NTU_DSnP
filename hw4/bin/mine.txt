@@ -1,0 +1,2 @@
+Error: cannot open file "do1"!!
+Usage: memTest [ -File < doFile > ]

@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "cmd"
+		},
+		{
+			"path": "db"
+		},
+		{
+			"path": "main"
+		},
+		{
+			"path": "test"
+		},
+		{
+			"path": "util"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"sstream": "cpp",
+			"*.tcc": "cpp",
+			"optional": "cpp",
+			"system_error": "cpp",
+			"array": "cpp",
+			"bitset": "cpp",
+			"initializer_list": "cpp",
+			"string_view": "cpp",
+			"utility": "cpp"
+		}
+	}
+}

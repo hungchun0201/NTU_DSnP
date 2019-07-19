@@ -1,0 +1,16 @@
+cirr strash06.aag -r
+cirstr
+cirp -n
+ciropt
+cirp -n
+cirsw
+cirp -n
+cirsim -r
+cirfraig
+usage
+cirr strash05.aag -r
+cirsim -r
+cirfraig
+cirp -fec
+cirp -n
+q -f

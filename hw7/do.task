@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo test mine
+./taskMgr -f mydo &> task.mine
+echo test ref
+./ref/taskMgr-linux16 -f mydo &> task.ref
+echo diff
+diff task.mine task.ref
+#echo remove txt
+# rm sim13.mine sim13.ref

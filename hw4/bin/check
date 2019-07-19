@@ -1,0 +1,8 @@
+echo "=== Generating test cases ==="
+python3 gen.py $2
+echo "=== Running your code ==="
+./memTest -f mydo > out.mine 2>&1
+echo "=== Runnning reference code ==="
+./memTest-$1 -f mydo > out.ref 2>&1
+echo "=== Comparing results (using memTest-$1) ==="
+colordiff out.mine out.ref

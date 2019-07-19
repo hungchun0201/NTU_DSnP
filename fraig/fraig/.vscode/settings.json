@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "*.tcc": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "string_view": "cpp",
+        "cmath": "cpp",
+        "bitset": "cpp",
+        "utility": "cpp",
+        "iomanip": "cpp"
+    },
+    // "C_Cpp.errorSquiggles": "Disabled"
+}

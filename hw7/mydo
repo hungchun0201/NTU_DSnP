@@ -1,0 +1,5 @@
+do ./dofiles/do2
+taskr -r 100000
+taska 2222
+taskr -r 10000
+q -f

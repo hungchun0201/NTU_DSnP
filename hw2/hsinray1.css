@@ -1,0 +1,14 @@
+.turn_to_red
+{
+    color:red;
+    background: #ccc;
+    padding: 200px;
+    border:5px dashed black;
+    border-radius: 20px; 
+}
+
+.turn_to_red:hover
+{
+    background: green;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+cir> cirread ./aag_files/aagGen.cpp
+[ERROR] Line 1: Illegal identifier "#include"!!
+
+cir> cirp -s
+Error: circuit is not yet constructed!!
+
+cir> cirp -n
+Error: circuit is not yet constructed!!
+
+cir> cirp -pi
+Error: circuit is not yet constructed!!
+
+cir> cirp -po
+Error: circuit is not yet constructed!!
+
+cir> cirp -fl
+Error: circuit is not yet constructed!!
+
+cir> cirwrite
+Error: circuit is not yet constructed!!
+
+cir> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+cir> q -f
+

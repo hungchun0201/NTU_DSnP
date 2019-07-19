@@ -1,0 +1,35 @@
+cir> cirread ./aag_files/aagGen.cpp
+
+cir> cirp -s
+
+Circuit Statistics
+==================
+  PI           0
+  PO           0
+  AIG          0
+------------------
+  Total        0
+
+cir> cirp -n
+
+
+cir> cirp -pi
+PIs of the circuit:
+
+cir> cirp -po
+POs of the circuit:
+
+cir> cirp -fl
+
+cir> cirwrite
+aag 0 0 0 0 0
+c
+AAG output by Chung-Yang (Ric) Huang
+
+cir> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+cir> q -f
+
